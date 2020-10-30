@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="post.css">
+    <title><%= pagetitle %></title>
+</head>
+<body>
+    <nav class="navbar  navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.loanqubes.com/wp-content/uploads/2019/06/Logoloan.png"  class="d-inline-block align-top" alt="">
+        </a>
+      </nav>
+      
+        <div class="mydata">
+            <ol>
+                <% INCENT.forEach(item=>{ %>
+                <li>Incentive : <%= item %> Rs </li>
+                <% }); %>  
+            </ol>
+            <h2 class="profit">Captain's Share of Profit including incentive : <%= PROFIT %>Rs</h2>  
+        </div> 
+        <% if(BAD) {%>
+          <h3 class="bad"><%=content %></h3>
+        <% } %> 
+        <% if(GOOD) {%>
+          <h3 class="good"><%=content %></h3>
+        <% } %> 
+        
+</body>
+</html>

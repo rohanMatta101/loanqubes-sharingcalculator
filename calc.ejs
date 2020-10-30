@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title><%= pagetitle %></title>
+</head>
+<body>
+    <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://www.loanqubes.com/wp-content/uploads/2019/06/Logoloan.png"  class="d-inline-block align-top" alt="">
+        </a>
+      </nav>
+    <div class="my-form">  
+    <form class="form" action="/post-calc" method="POST">
+        <div class="input">
+            <label for="captain">B.V for CAPTAIN:</label>
+            <input class="captain" type="Number" name="captain" value="0">
+        </div>
+        <div class="input">
+            <label for="memberone">B.V for Member1:</label>
+            <input type="Number" name="memberone" value="0">
+            <label for="onetype">Enter S/J</label>
+            <input type="text" name="onetype" value="">
+        </div>
+        <div class="input">
+            <label for="membertwo">B.V for Member2:</label>
+            <input type="Number" name="membertwo" value="0">
+            <label for="twotype">Enter S/J</label>
+            <input type="text" name="twotype" value="">
+        </div>
+        <div class="input">
+            <label for="memberthree">B.V for Member3:</label>
+            <input type="Number" name="memberthree" value="0">
+            <label for="threetype">Enter S/J</label>
+            <input type="text" name="threetype" value="">
+        </div>
+        <div class="input">
+            <label for="memberfour">B.V for Member4:</label>
+            <input type="number" name="memberfour" value="0">
+            <label for="fourtype">Enter S/J</label>
+            <input type="text" name="fourtype" value="">
+        </div>
+        <div class="input">
+            <label for="memberfive">B.V for Member5:</label>
+            <input type="Number" name="memberfive" value="0">
+            <label for="fivetype">Enter S/J</label>
+            <input type="text" name="fivetype" value="">
+        </div>
+        <div class="input">
+            <label for="membersix">B.V for Member6:</label>
+            <input type="Number" name="membersix" value="0">
+            <label for="sixtype">Enter S/J</label>
+            <input type="text" name="sixtype" value="">
+        </div>
+        <div class="input">
+            <label for="memberseven">B.V for Member7:</label>
+            <input type="Number" name="memberseven" value="0">
+            <label for="seventype">Enter S/J</label>
+            <input type="text" name="seventype" value="">
+        </div>
+        <div class="input">
+            <label for="membereight">B.V for Member8:</label>
+            <input type="Number" name="membereight" value="0">
+            <label for="eighttype">Enter S/J</label>
+            <input type="text" name="eighttype" value="">
+        </div>
+        <div class="input">
+            <label for="membernine">B.V for Member9:</label>
+            <input type="number" name="membernine" value="0">
+            <label for="ninetype">Enter S/J</label>
+            <input type="text" name="ninetype" value="">
+        </div>
+        <div class="input">
+            <label for="memberten">B.V for Member10:</label>
+            <input type="Number" name="memberten" value="0">
+            <label for="tentype">Enter S/J</label>
+            <input type="text" name="tentype" value="">
+        </div>
+        <!--<div class="input">
+            <label for="businesscom">Enter the Business Commission Percentage</label>
+            <input type="number" step="0.001" name="businesscom">
+        </div>-->
+        <button  type="submit" class="btn btn-dark btn-lg">GET INCENTIVES</button>
+     </form>
+    </div>  
+    
+</body>
+</html>
