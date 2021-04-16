@@ -1,6 +1,6 @@
 # loanqubes-sharingcalculator
-This is an incentive calculator for a company
-Loanqubes.com which deals with providing auto loans,personal loans etc.
+An incentive calculator for 
+Loanqubes.com which  provides auto loans,personal loans etc.
 This is a calculator built for the employees of the company.
 The company consists of 5-6 teams each having a captain.
 When the captain enters the business done by the members of his team i.e customers interested in taking the loan, 
